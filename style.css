@@ -1,0 +1,55 @@
+body{
+    background: url(heart5.png), url(heart5.png), url(heart5.png);
+    background-position: right, 14% 20%, left bottom;
+    background-repeat: no-repeat;
+    background-size: 30%, 19%, 24%;
+    background-color: #922437;
+}
+article, h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: monotype corsiva;
+    color:white;
+    font-size:3rem;
+}
+.first{
+    flex-direction: column;
+    text-align:center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.welcome, .PerfectPartner, .GenderDescription, .message, .form {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    background: #5F0C1A;
+    color:white;
+    font-size: 24px;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+}
+.button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: rgb(255, 128, 128);
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        font-size:16px;
+        cursor:pointer;
+}
+.back{
+    color:white;
+    text-decoration: none;
+    position: absolute;
+}
